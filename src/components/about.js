@@ -121,11 +121,6 @@ const About = ({ data }) => {
             {skills && skills.map((skill, i) => <Skill key={i}>{skill}</Skill>)}
           </SkillsContainer>
         </ContentContainer>
-        <PicContainer>
-          <AvatarContainer href={github}>
-            <Avatar fluid={avatar.childImageSharp.fluid} alt="Avatar" />
-          </AvatarContainer>
-        </PicContainer>
       </FlexContainer>
     </AboutContainer>
   );

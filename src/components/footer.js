@@ -12,6 +12,7 @@ import {
 import { socialMedia } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
+import { BlogIcon } from './icons';
 const { colors, fontSizes, fonts } = theme;
 
 const FooterContainer = styled.footer`
@@ -72,29 +73,32 @@ const Footer = ({ githubInfo }) => (
     <SocialContainer>
       <SocialItemList>
         {socialMedia &&
-          socialMedia.map(({ name, url }, i) => (
-            <li key={i}>
-              <SocialLink
-                href={url}
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                aria-label={name}>
-                {name === 'Github' ? (
-                  <IconGithub />
-                ) : name === 'Linkedin' ? (
-                  <IconLinkedin />
-                ) : name === 'Codepen' ? (
-                  <IconCodepen />
-                ) : name === 'Instagram' ? (
-                  <IconInstagram />
-                ) : name === 'Twitter' ? (
-                  <IconTwitter />
-                ) : (
-                  <IconGithub />
-                )}
-              </SocialLink>
-            </li>
-          ))}
+          socialMedia.map(({ name, url }, i) => {
+            console.log(name);
+            return (
+              <li key={i}>
+                <SocialLink
+                  href={url}
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                  aria-label={name}>
+                  {name === 'Github' ? (
+                    <IconGithub />
+                  ) : name === 'Linkedin' ? (
+                    <IconLinkedin />
+                  ) : name === 'Codepen' ? (
+                    <IconCodepen />
+                  ) : name === 'Instagram' ? (
+                    <IconInstagram />
+                  ) : name === 'Blog' ? (
+                    <BlogIcon id="yes" />
+                  ) : (
+                    <div></div>
+                  )}
+                </SocialLink>
+              </li>
+            );
+          })}
       </SocialItemList>
     </SocialContainer>
     <Copy>
