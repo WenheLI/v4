@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 import sr from '@utils/sr';
-import { srConfig, github } from '@config';
+import { srConfig } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section, Heading } from '@styles';
 const { colors, fontSizes, fonts } = theme;

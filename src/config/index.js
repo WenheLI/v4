@@ -2,13 +2,12 @@ module.exports = {
   siteTitle: 'Wenhe Eric Li',
   siteDescription: '',
   siteKeywords: 'Wenhe, Eric, Javascript, Machine Learning',
-  siteUrl: 'https://brittanychiang.com',
+  siteUrl: 'https://portfolio.steins.live',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleAnalyticsID: 'UA-136071260-1',
   name: 'Wenhe Li',
   email: 'wenhe.li98@nyu.edu',
-  github: 'https://github.com/bchiang7',
+  github: 'https://github.com/WenheLi',
   socialMedia: [
     {
       name: 'Github',
@@ -34,7 +33,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {

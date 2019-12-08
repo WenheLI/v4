@@ -102,6 +102,8 @@ const Footer = ({ githubInfo }) => (
       </SocialItemList>
     </SocialContainer>
     <Copy>
+      <div style={{ paddingBottom: '15px' }}>Modified by Wenhe Li.</div>
+
       <GithubLink
         href="https://github.com/bchiang7/v4"
         target="_blank"
