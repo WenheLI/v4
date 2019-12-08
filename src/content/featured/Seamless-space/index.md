@@ -2,8 +2,8 @@
 date: '2'
 title: 'Disco Cube'
 cover: './1.png'
-github: 'https://github.com/Disco-cube'
-external: 'https://blog.steins.live/disco-cube/'
+github: 'https://github.com/WenheLI/Disco-cube'
+external: 'https://blog.steins.live/2019/10/24/disco-cube/'
 tech:
   - Kinect
   - Project Mapping
