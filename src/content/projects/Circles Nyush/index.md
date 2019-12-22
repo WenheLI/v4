@@ -5,10 +5,10 @@ image: ''
 github: 'https://github.com/CirclesNyush'
 external: 'https://docs.google.com/presentation/d/1U1aoXyoKaSdoIs1OQL0rXqIxhng0RECLbyZSJF6FdlY/edit?usp=sharing'
 tech:
-  - WebGL
-  - Matrix
-  - Javascript
-  - AR/VR
+  - Software Development
+  - Kotlin/Java
+  - Flask
+  - Android
 show: 'true'
 ---
 
