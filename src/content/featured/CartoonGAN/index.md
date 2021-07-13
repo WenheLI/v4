@@ -1,7 +1,7 @@
 ---
 date: '0'
 title: 'Cartoonize'
-cover: './original.gif'
+cover: './demo.png'
 github: 'https://github.com/WenheLI/cartoonGAN-Application'
 external: 'https://cartoon.steins.live/'
 tech:
