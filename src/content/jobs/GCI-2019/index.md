@@ -3,7 +3,7 @@ date: '2019-11-01'
 title: 'Mentor'
 company: 'Google Code-In TensorFlow'
 location: 'Remote'
-range: 'Nov 2019 - Present'
+range: 'Nov 2019 - Jan 2020'
 url: 'https://codein.withgoogle.com'
 ---
 

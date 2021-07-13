@@ -1,18 +1,18 @@
 ---
-date: '1'
-title: 'Doko'
-cover: './Doko.jpg'
-github: 'https://github.com/Pennapps-Doko'
-external: 'https://devpost.com/software/doko'
+date: '0'
+title: 'Cartoonize'
+cover: './original.gif'
+github: 'https://github.com/WenheLI/cartoonGAN-Application'
+external: 'https://cartoon.steins.live/'
 tech:
-  - LBS
-  - Nodejs
-  - Mongodb
-  - iOS
+  - Deep Learning
+  - TypeScript
+  - CartoonGAN
+  - TensorFlow.js
   - Serverless
 show: 'true'
 ---
 
-We know what you like, never waste time deciding where to eat again!
+This Project allows you to transfer an image / gif or a video stream from webcam into some cartoon styles on your own!
 
-Doko is one of the top30 apps from PennApps XVIII, it can analyse your twitter posts and give restaurant recommondations.
+With the power of Deep Learning, we now can export a Deep Learning model into web directly and run such a complex style transfer on your own device. This project demostrate the possibility of it; And everything happened at your end-device without uploading a single image to any server.

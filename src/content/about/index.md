@@ -5,7 +5,8 @@ skills:
   - HTML & (S)CSS
   - React
   - Node.js
-  - GraphQL
+  - C / C++
+  - WebAssembly
   - Flutter
   - ReactNative
   - Android
@@ -16,6 +17,6 @@ skills:
 
 Hello! I'm Eric, I like web, hardware and anything tech related. I develop apps, web, IoT, and machine learning applications. I love open source and always want to contribute more to this community.
 
-Graduating from [New York University Shanghai](https://shanghai.nyu.edu/) at May 2020.
+Currently an incoming student at Cornell Tech, and will graduate at May 2023.
 
 And below is my skill set:
